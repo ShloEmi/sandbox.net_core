@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/problem28_Number_spiral_diagonals.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
